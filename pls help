@@ -1,0 +1,11 @@
+2018-12-10T18:28:12.688941+00:00 app[worker.1]: Error: Cannot find module './constants'
+2018-12-10T18:28:12.688943+00:00 app[worker.1]:     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+2018-12-10T18:28:12.688944+00:00 app[worker.1]:     at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+2018-12-10T18:28:12.688945+00:00 app[worker.1]:     at Module.require (internal/modules/cjs/loader.js:636:17)
+2018-12-10T18:28:12.688947+00:00 app[worker.1]:     at require (internal/modules/cjs/helpers.js:20:18)
+2018-12-10T18:28:12.688948+00:00 app[worker.1]:     at Object.<anonymous> (/app/node_modules/ws/lib/websocket.js:19:19)
+2018-12-10T18:28:12.688949+00:00 app[worker.1]:     at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-12-10T18:28:12.688950+00:00 app[worker.1]:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+2018-12-10T18:28:12.688952+00:00 app[worker.1]:     at Module.load (internal/modules/cjs/loader.js:598:32)
+2018-12-10T18:28:12.688953+00:00 app[worker.1]:     at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+2018-12-10T18:28:12.688954+00:00 app[worker.1]:     at Function.Module._load (internal/modules/cjs/loader.js:529:3)
